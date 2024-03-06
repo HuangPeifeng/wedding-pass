@@ -3,10 +3,7 @@ body {
   padding: 0;
 }
 
-.container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
+.main {
   grid-gap: 167px;
   padding-top: 75px;
   background: linear-gradient(
@@ -16,32 +13,29 @@ body {
   );
 }
 
-.container .left {
+.main .left {
   margin-top: 99px;
 }
 
-.container .left .title {
+.main .left .title {
   font-size: 55px;
   font-weight: 700;
   letter-spacing: 1.38px;
   line-height: 63px;
   color: rgba(76, 64, 83, 1);
-  margin-bottom: 27px;
 }
 
-.container .left .subtitle {
+.main .left .subtitle {
   font-size: 21px;
   font-weight: 500;
   letter-spacing: 2.1px;
   line-height: 29px;
   color: rgba(55, 49, 58, 1);
-  margin-bottom: 31px;
 }
 
-.container .left button {
+.main .left button {
   width: 142px;
   height: 45px;
-  opacity: 1;
   border-radius: 28px;
   background: rgba(76, 64, 83, 1);
   font-size: 16px;
@@ -52,27 +46,4 @@ body {
   cursor: pointer;
   outline: none;
   margin-bottom: 100px;
-}
-
-.container .left .images {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  grid-gap: 30px;
-}
-
-.container .right {
-  position: relative;
-}
-
-.container .right .illustration {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.container .right .phone_with_photo {
-  position: absolute;
-  top: 122px;
-  left: 0;
 }
